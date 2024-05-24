@@ -43,3 +43,9 @@ codigo.
 
 En este repositorio voy a usar [Poetry](https://python-poetry.org/docs/) el facilita 
 contener proyectos de python dentro de una carpeta sin afectar lo que pasa fuera de esta, lo cual es muy genial. Imaginense que en su sistema tienen instalado tensorflow 1.0.0 y quieren probar algo nuevo que salio en tensorflow 1.0.2. Si actualizan la libreria en sus sistema "BOOM" varios proyectos que dependian de 1.0.0 podrian romperse, entonces para probarlo de forma segura abren una carpeta, le permiten a poetry inicializar el proyecto e instalan lo que quieran de forma segura.
+
+
+## Y ahora que?
+
+El primer paso es clonar este repositorio en sus computadoras, luego instalar poetry y finalmente ir a la carpeta donde clonaron el respositorio y correr
+`poetry install`
